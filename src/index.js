@@ -34,6 +34,8 @@ function updateSlider() {
   container.style.backgroundImage = `url(./src/assets/img${film.img}.png)`;
 }
 
+updateSlider(); // Coloquei pra vc testar se nao der certo tira. Qnd o site abre não aparece nada nos slides por isso ativar a função aq
+
 buttonRight.addEventListener("click", (e) => {
 	index++;
 
